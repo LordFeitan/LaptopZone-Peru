@@ -114,6 +114,7 @@ h2 {
 
 #laptops_destacadas a:hover {
   text-decoration: underline;
+  color: white;
 }
 
 /* CATEGORÍAS */
@@ -274,7 +275,11 @@ header img:hover {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(0 0 4px rgb(247, 9, 9));
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 
