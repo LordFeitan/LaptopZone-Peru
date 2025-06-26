@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,117 +8,175 @@
     <meta name="author" content="LaptopZone Perú">
     <title>LaptopZone Perú - Laptop Lenovo Legion 9, 16" 3.2K Mini LED, Core i9-14900HX 2.2/5.8GHz, 64GB DDR5-5600MHz
     </title>
-    <link rel="icon" href="img/laptop.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>LaptopZone Perú</h1>
-        <img src="img/logo.jpg" alt="Logo de LaptopZone Perú" width="400">
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="index.html#promociones">Promociones Destacadas</a></li>
-                <li><a href="index.html#laptops_destacadas">Laptops Destacadas</a></li>
-                <li><a href="index.html#categorias">Categorías Populares</a></li>
-                <li><a href="index.html#opiniones">Opiniones</a></li>
-                <li><a href="index.html#contacto">Contacto</a></li>
-            </ul>
+    <header class="bg-white shadow-sm border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <img src="img/logo3.png" alt="Logo de LaptopZone Perú" width="120" class="rounded me-2" />
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav mx-auto gap-3 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#promociones">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catogoria-laptops.html">Laptops</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#opiniones">Opiniones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contacto">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex align-items-center gap-3 mt-2 mt-lg-0">
+                        <span class="text-white fw-semibold">
+                            <i class="fas fa-phone-alt me-1 text-info"></i> 963 148 291
+                        </span>
+
+                        <a href="https://facebook.com" target="_blank" class="text-decoration-none text-white">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="text-decoration-none text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/51963148291" target="_blank" class="text-decoration-none text-white">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <main>
-
+    <main class="container py-5">
         <section>
-            <h2>Detalle del Producto</h2>
+            <h2 class="text-center mb-4">Laptop Lenovo Legion 9, 16" 3.2K Mini LED, Core i9-14900HX 2.2/5.8GHz, 64GB DDR5-5600MHz</h2>
 
-            <article>
-                <header>
-                    <h3>Laptop Lenovo Legion 9, 16" 3.2K Mini LED, Core i9-14900HX 2.2/5.8GHz, 64GB DDR5-5600MHz</h3>
-                </header>
+            <article class="card shadow-sm mb-5">
+                <div class="row g-0">
+                    <div class="col-md-5 d-flex align-items-center justify-content-center p-3">
+                        <figure class="m-0 text-center">
+                            <img src="img/items/nblen83g0004rlm_full.jpg" 
+                            alt="Laptop Lenovo Legion 9, 16 3.2K Mini LED, Core i9-14900HX 2.2/5.8GHz, 64GB DDR5-5600MHz" class="img-fluid rounded">
+                            <figcaption class="small text-muted mt-2">Imagen referencial del producto</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <section class="mb-4">
+                                <h4 class="h5">Descripción</h4>
+                                <p class="card-text text-justify">
+                                    Laptop Lenovo Legion 9, 16" 3.2K Mini LED, Core i9-14900HX 2.2/5.8GHz, 64GB DDR5-5600MHz
+                                    1TB SSD M.2 2280 PCIe 4.0x4 NVMe, Video Dedicado NVIDIA GeForce RTX 4090 (16GB GDDR6) / Boost
+                                    Clock: 2040MHz / TGP: 175W / 686 AI TOPS, Audio HD + Realtek ALC3306 Codec / Stereo speakers
+                                    (super linear speaker), 2W x2, audio by HARMAN / Optimizado con Nahimic Audio, LAN 2.5GbE
+                                    (RJ-45), WLAN Intel Killer Wi-Fi 6E AX1675i, 802.11ax (2x2) / BT 5.3, SD Card Reader, Camara Web
+                                    FHD 1080p con E-Shutter / Microfono 2x Array, Teclado Per-key RGB Backlit (con Lighting Lens) en
+                                    español (LA), Bateria integrada de 99.9Wh, Adaptador de poder de 330W Slim Tip Tiny GaN (3-pin)
+                                    + 140W USB-C Slim (3-pin), Color Carbon (Negro), AI Chip: LA3-P.<br/>
+                                    Sistema Operativo Windows 11 Home SL, 64-bits en español.
+                                </p>
+                            </section>
 
-                <figure>
-                    <img src="img/items/nblen83g0004rlm_full.jpg" alt="Laptop Lenovo Legion 9, 16 3.2K Mini LED, Core i9-14900HX 2.2/5.8GHz, 64GB DDR5-5600MHz">
-                    <figcaption>Imagen referencial del producto</figcaption>
-                </figure>
+                            <section class="mb-4">
+                                <h4 class="h5">Especificaciones Técnicas</h4>
+                                <ul class="list-unstyled">
+                                    <li><strong>Procesador:</strong>  INTEL CORE i9 14900HX 2.2 / 5.8 GHZ CACHE L3 36 MB</li>
+                                    <li><strong>Memoria RAM:</strong> 64GB DDR5-5600MHz</li>
+                                    <li><strong>Almacenamiento:</strong> 1024 GB SSD</li>
+                                    <li><strong>Tarjeta Gráfica:</strong> GEFORCE RTX 4090</li>
+                                    <li><strong>Pantalla:</strong> 16" 3.2K Mini LED</li>
+                                    <li><strong>Sistema Operativo:</strong> WINDOWS 11 HOME SL 64 BITS</li>
+                                </ul>
+                            </section>
 
-                <section>
-                    <h4>Descripción</h4>
-                    <p align="justify">
-                        Laptop Lenovo Legion 9, 16" 3.2K Mini LED, Core i9-14900HX 2.2/5.8GHz, 64GB DDR5-5600MHz
-                        1TB SSD M.2 2280 PCIe 4.0x4 NVMe, Video Dedicado NVIDIA GeForce RTX 4090 (16GB GDDR6) / Boost
-                        Clock: 2040MHz / TGP: 175W / 686 AI TOPS, Audio HD + Realtek ALC3306 Codec / Stereo speakers
-                        (super linear speaker), 2W x2, audio by HARMAN / Optimizado con Nahimic Audio, LAN 2.5GbE
-                        (RJ-45), WLAN Intel Killer Wi-Fi 6E AX1675i, 802.11ax (2x2) / BT 5.3, SD Card Reader, Camara Web
-                        FHD 1080p con E-Shutter / Microfono 2x Array, Teclado Per-key RGB Backlit (con Lighting Lens) en
-                        español (LA), Bateria integrada de 99.9Wh, Adaptador de poder de 330W Slim Tip Tiny GaN (3-pin)
-                        + 140W USB-C Slim (3-pin), Color Carbon (Negro), AI Chip: LA3-P.<br/>
-                        Sistema Operativo Windows 11 Home SL, 64-bits en español.
-                    </p>
-                </section>
-
-                <section>
-                    <h4>Especificaciones Técnicas</h4>
-                    <ul>
-                        <li>Procesador: INTEL CORE i9 14900HX 2.2 / 5.8 GHZ CACHE L3 36 MB</li>
-                        <li>Memoria RAM: 64GB DDR5-5600MHz</li>
-                        <li>Almacenamiento: 1024 GB SSD</li>
-                        <li>Tarjeta Gráfica: GEFORCE RTX 4090</li>
-                        <li>Pantalla: 16" 3.2K Mini LED</li>
-                        <li>Sistema Operativo: WINDOWS 11 HOME SL 64 BITS</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h4>Precio</h4>
-                    <p><strong>$3 899.00 + IGV</strong></p>
-                    <a
-                        href="https://api.whatsapp.com/send?phone=51963148291&amp;text=Deseo este producto: https://lordfeitan.github.io/LaptopZone-Peru/producto-nblen83g0004rlm.html">
-                        Solicítalo por WhatsApp
-                    </a>
-                </section>
+                            <section>
+                                <h4 class="h5">Precio</h4>
+                                <p class="card-text fw-bold text-primary fs-4 mb-3">
+                                    S/ 18 000.00 + IGV
+                                </p>
+                                <a href="https://api.whatsapp.com/send?phone=51963148291&amp;text=Deseo este producto: https://lordfeitan.github.io/LaptopZone-Peru/producto-nblen21f7001flm.html"
+                                    class="btn btn-success btn-lg">
+                                    <i class="fab fa-whatsapp me-2"></i> Solicítalo por WhatsApp
+                                </a>
+                            </section>
+                        </div>
+                    </div>
+                </div>
             </article>
         </section>
 
-        <section>
-            <h2>Opiniones de Clientes</h2>
+
+        <!-- OPINIONES DE CLIENTES -->
+        <section id="opiniones" class="container">
+            <h2 class="mb-4">Opiniones de Clientes</h2>
             <article>
-                <h3>Usuario: Juan P.</h3>
-                <p>"Excelente rendimiento para jugar y trabajar. Buena refrigeración."</p>
+                <h3>Juan P.</h3>
+                <p align="justify">“Excelente rendimiento para jugar y trabajar. Buena refrigeración.”</p>
             </article>
             <article>
-                <h3>Usuario: María L.</h3>
-                <p>"Cumple con lo que promete. El envío fue rápido y el empaque seguro."</p>
+                <h3>María L.</h3>
+                <p align="justify">“Cumple con lo que promete. El envío fue rápido y el empaque seguro.”</p>
             </article>
         </section>
 
-        <aside>
-            <h2>Productos Relacionados</h2>
-            <ul>
-                <li><a href="producto-nblen21f7001flm.html" target="_self">Laptop Lenovo ThinkPad T14s Gen4 14" WUXGA
-                        IPS Core i7-1355U 1.7/5GHz 16GB LPDDR5x-4800</a></li>
-                <li><a href="producto-nblen83a100gklm.html" target="_self">Laptop Lenovo V15 G4 IRU, 15.6" FHD TN, Core
-                        i5-13420H 2.1 / 4.6GHz, 8GB DDR4-3200MHz</a></li>
-            </ul>
+        <aside class="mb-5">
+            <h2 class="mb-4">Productos Relacionados</h2>
+            <div class="list-group">
+                <a href="producto-nblen21f7001flm.html" class="list-group-item list-group-item-action py-3"
+                    target="_self">
+                    Laptop Lenovo ThinkPad T14s Gen4 14" WUXGA
+                        IPS Core i7-1355U 1.7/5GHz 16GB LPDDR5x-4800
+                </a>
+                <a href="producto-nblen83a100gklm.html" class="list-group-item list-group-item-action py-3"
+                    target="_self">
+                    Laptop Lenovo V15 G4 IRU, 15.6" FHD TN, Core
+                        i5-13420H 2.1 / 4.6GHz, 8GB DDR4-3200MHz
+                </a>
+            </div>
         </aside>
 
     </main>
 
-    <footer>
-        <p>&copy; 2025 LaptopZone Perú. Todos los derechos reservados.</p>
-        <nav>
-            <ul>
-                <li><a href="terminos-y-condiciones.html" target="_self">Términos y Condiciones</a></li>
-                <li><a href="politica-y-privacidad.html" target="_self">Política de Privacidad</a></li>
-            </ul>
-        </nav>
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-2">&copy; 2025 LaptopZone Perú. Todos los derechos reservados.</p>
+            <nav>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item"><a href="terminos-y-condiciones.html" class="text-white text-decoration-none" target="_self">Términos y Condiciones</a></li>
+                    <li class="list-inline-item">|</li>
+                    <li class="list-inline-item"><a href="politica-y-privacidad.html" class="text-white text-decoration-none" target="_self">Política de Privacidad</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

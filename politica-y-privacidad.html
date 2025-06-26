@@ -2,39 +2,81 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="Detalle del producto Laptop Gamer XYZ en LaptopZone Perú. Especificaciones técnicas, precio y opiniones de clientes.">
-    <meta name="author" content="LaptopZone Perú">
-    <title>LaptopZone Perú - Notebook Lenovo V15 G4 IRU, 15.6" FHD TN, Core i5-13420H 2.1 / 4.6GHz, 8GB DDR4-3200MHz
-    </title>
-    <link rel="icon" href="img/laptop.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+        content="LaptopZone Perú: Tienda online especializada en la venta de laptops para todo uso." />
+    <meta name="author" content="LaptopZone Perú" />
+    <title>LaptopZone Perú - Especialistas en Laptops</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;600;800&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome (opcional para íconos) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+    <!-- Tu hoja de estilos personalizada -->
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
-    <header>
-        <h1>LaptopZone Perú</h1>
-        <img src="img/logo.jpg" alt="Logo de LaptopZone Perú" width="400">
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="index.html#promociones">Promociones Destacadas</a></li>
-                <li><a href="index.html#laptops_destacadas">Laptops Destacadas</a></li>
-                <li><a href="index.html#categorias">Categorías Populares</a></li>
-                <li><a href="index.html#opiniones">Opiniones</a></li>
-                <li><a href="index.html#contacto">Contacto</a></li>
-            </ul>
+    <header class="bg-white shadow-sm border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <img src="img/logo3.png" alt="Logo de LaptopZone Perú" width="120" class="rounded me-2" />
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav mx-auto gap-3 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#promociones">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catogoria-laptops.html">Laptops</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#opiniones">Opiniones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contacto">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex align-items-center gap-3 mt-2 mt-lg-0">
+                        <span class="text-white fw-semibold">
+                            <i class="fas fa-phone-alt me-1 text-info"></i> 963 148 291
+                        </span>
+
+                        <a href="https://facebook.com" target="_blank" class="text-decoration-none text-white">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="text-decoration-none text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/51963148291" target="_blank" class="text-decoration-none text-white">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <main>
+    <main class="container">
         <section id="politica_privacidad">
             <h2>Privacidad y Confidencialidad</h2>
             <p align="justify">Gracias por acceder a la página web LAPTOPZONE-PERU (el
@@ -122,14 +164,19 @@
 
     </main>
 
-    <footer>
-        <p align="justify">&copy; 2025 LaptopZone Perú. Todos los derechos reservados.</p>
-        <nav>
-            <ul>
-                <li><a href="terminos-y-condiciones.html" target="_self">Términos y Condiciones</a></li>
-                <li><a href="politica-y-privacidad.html" target="_self">Política de Privacidad</a></li>
-            </ul>
-        </nav>
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-2">&copy; 2025 LaptopZone Perú. Todos los derechos reservados.</p>
+            <nav>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item"><a href="terminos-y-condiciones.html"
+                            class="text-white text-decoration-none" target="_self">Términos y Condiciones</a></li>
+                    <li class="list-inline-item">|</li>
+                    <li class="list-inline-item"><a href="politica-y-privacidad.html"
+                            class="text-white text-decoration-none" target="_self">Política de Privacidad</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 
 </body>
