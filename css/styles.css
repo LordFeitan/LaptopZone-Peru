@@ -251,14 +251,9 @@ header img:hover {
   transform: scale(1.05);
 }
 
-.navbar-nav .nav-link {
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
 
-.navbar-nav .nav-link:hover {
-  color: #ffc107 !important;
-}
+
+
 .carousel img {
   height: auto;
   max-height: 500px;
@@ -282,5 +277,44 @@ header img:hover {
   text-align: justify;
 }
 
+/*CSS Personalizado Menu*/
+.linkMenu {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+  padding-bottom: 5px;
+  position: relative
+}
+.linkMenu::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #FFD700;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+.linkMenu:hover {
+  color: #ffc107;
+}
+.linkMenu:hover::after {
+  width: 80%;
+}
+@media (max-width: 576px) {
+  .imgProduct {
+    width: 250px;
+    height: auto;
+    margin: 0 auto; 
+    display: block;
+  }
+  .dataProduct {
+    align-items: center;
+    text-align: center;
+  }
+}
 
 
